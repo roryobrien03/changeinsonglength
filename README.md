@@ -13,7 +13,7 @@ Using pandas, I imported the data and calculated the average song length (in sec
 
 It can be seen that there has been a clear decrease over the years. The peak average song length (247.23 seconds) in 2011, compared to the average song length (207.33 seconds) represents a 16.14% decrease, which is pretty substantial when you consider the relatively small range of song lengths.
 
-Another visualisation of the data, through a plot of the moving average (of the last 3 years) can be seen below, and shows evidence of the decrease in song duration.
+Another visualisation of the data, through a plot of the moving average (of the last 3 years) can be seen below, and shows further evidence of the steady decrease in song duration. 
 
 <img width="1440" alt="Screenshot 2023-01-16 at 17 52 53" src="https://user-images.githubusercontent.com/122220434/212740388-5adf5849-a9e6-472e-ae27-28bff2343099.png">
 
