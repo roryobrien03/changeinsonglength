@@ -12,3 +12,12 @@ Using pandas, I imported the data and calculated the average song length (in sec
 
 It can be seen that there has been a clear decrease over the years. The peak average song length (247.23 seconds) in 2011, compared to the average song length (207.33 seconds) represents a 16.14% decrease, which is pretty substantial when you consider the relatively small range of song lengths.
 
+After this, I used a similar method in the "songlength2021.py" file to calculate the average song duration of the top 50 songs in 2021. The resulting figure was 197.49 seconds, which shows evidence of this downward trend.
+
+I then used a linear regression model to predict the expected 2021 average song duration using pandas and the sklearn module. I trained the model on 30% of the data and tested it on the other 70%. This predicted value was 206.25 seconds. This is a 8.76 second (4.44%) difference from the actual value in 2021. This higher expected value is likely due to the fact that the decrease in average time was very steady up until 2019 when it took a heavy fall, so the linear regression model's slope isn't that large (in magnitude) as it uses data on all the values. The slope coefficient of -3.42 shows this.
+
+Otherwise, the RMSE (Root Mean Squared Error) of the model was 4.4 which is pretty low, meaning the linear regression model seems to be pretty accurate.
+
+
+Overall, it is pretty safe to say that the average duration of the top songs has decreased from 2010-2021. The reasons for this are speculative, and are likely to be strongly linked to the reasons aforementioned.
+
