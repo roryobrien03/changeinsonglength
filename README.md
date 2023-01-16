@@ -18,12 +18,12 @@ Another visualisation of the data, through a plot of the moving average (of the 
 <img width="1440" alt="Screenshot 2023-01-16 at 17 52 53" src="https://user-images.githubusercontent.com/122220434/212740388-5adf5849-a9e6-472e-ae27-28bff2343099.png">
 
 
-After this, I used a similar method in the "songlength2021.py" file to calculate the average song duration of the top 50 songs in 2021. The resulting figure was 197.49 seconds, which shows evidence of this downward trend.
+After this, I used a similar method in the "songlength2021.py" file to calculate the average song duration of the top 50 songs in 2021. The resulting figure was 197.49 seconds, which shows continued evidence of this downward trend.
 
 I then used a linear regression model to predict the expected 2021 average song duration using pandas and the sklearn module. I trained the model on 30% of the data and tested it on the other 70%. This predicted value was 206.25 seconds. This is a 8.76 second (4.44%) difference from the actual value in 2021. This higher expected value is likely due to the fact that the decrease in average time was very steady up until 2019 when it took a heavy fall, so the linear regression model's slope isn't that large (in magnitude) as it uses data on all the values. The slope coefficient of -3.42 shows this.
 
 Otherwise, the RMSE (Root Mean Squared Error) of the model was 4.4 which is pretty low, meaning the linear regression model seems to be pretty accurate.
 
 
-Overall, it is pretty safe to say that the average duration of the top songs has decreased from 2010-2021. The reasons for this are speculative, and are likely to be strongly linked to the reasons aforementioned.
+Overall, it is pretty safe to say that the average duration of the top songs has decreased from 2010-2021. The reasons for this are speculative, and are likely to be strongly linked to the reasons aforementioned. It must be questioned how far this will go. In 2022 from my personal experience, albums I listened to had 20+ tracks and songs were more often than not less than 3 minutes. As a result, I, and many others did not enjoy these albums and are very worried about the current state of the music industry
 
