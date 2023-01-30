@@ -55,6 +55,7 @@ This is a swarmplot. It’s very similar to a boxplot but may be easier on the e
 # Predictions:
 
 I used 3 different prediction types:
+
 •	Simple Linear Regression (OLS) of all the data (formula below)
 
  <img width="457" alt="Screenshot 2023-01-30 at 17 16 41" src="https://user-images.githubusercontent.com/122220434/215547551-0c866db7-86dd-4b8b-99fd-7d8c51e5942f.png">
