@@ -48,7 +48,10 @@ This boxplot of the data is a good indicator of the range of the duration of the
 
 This is a swarmplot. It’s very similar to a boxplot but may be easier on the eye and clearer to some viewers. It shows the data points of each year and indicates the same thing as a boxplot.
 
+<img width="534" alt="Screenshot 2023-01-30 at 17 30 34" src="https://user-images.githubusercontent.com/122220434/215550624-85cc03f7-6e06-40e3-ad04-a396a45151a7.png">
 
+This is a kdeplot showing the probability density of the data. It is a more smoothed out histogram and the peaks represent where most of the data points are.
+2019 evidently has a much lower peak on the x-axis than the rest, closely followed by 2018, showing their lower song length.
 
 
 
