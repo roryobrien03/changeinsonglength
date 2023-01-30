@@ -3,8 +3,11 @@
 As an avid music listener, I have noticed it becoming somewhat a trend for the length of newly released music to be shorter than previous. 
 
 There are multiple causes of this I think, some of the main ones include: 
+
 •	Reduction of attention spans of people due to the new technology world and addiction to smartphones and social media such as Instagram, Snapchat, Tiktok etc.
+
 •	The rise of streaming services such as Spotify, which incentivize artists to try to maximise their streams rather than producing good quality albums/singles. There are now over 20 songs on many albums which was extremely rare of before. 
+
 •	Tiktok in particular is the most viral app in the world and many songs become popular due to short (~ 15 seconds) snippets of songs becoming trendy on it.
 
 I wanted to investigate if this was true or not, so I gathered data from Kaggle (https://www.kaggle.com/datasets/leonardopena/top-spotify-songs-from-20102019-by-year/code ) of the hit songs on Spotify from 2010-2019. I analysed this data and then used both simple linear regression and machine learning to try and predict what future song duration would be.
@@ -53,9 +56,11 @@ This is a swarmplot. It’s very similar to a boxplot but may be easier on the e
 
 I used 3 different prediction types:
 •	Simple Linear Regression (OLS) of all the data (formula below)
+
  <img width="457" alt="Screenshot 2023-01-30 at 17 16 41" src="https://user-images.githubusercontent.com/122220434/215547551-0c866db7-86dd-4b8b-99fd-7d8c51e5942f.png">
 
 •	Simple Linear Regression (OLS) of the mean values for each year (formula below)
+
  <img width="459" alt="Screenshot 2023-01-30 at 17 16 47" src="https://user-images.githubusercontent.com/122220434/215547580-e40e364b-ea64-4753-9cb6-d7c7eb3ab6b2.png">
 
 •	Machine Learning model (used a test size of 30% of the data)
