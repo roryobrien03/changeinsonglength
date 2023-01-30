@@ -13,17 +13,21 @@ I also used a 2021 dataset of top songs on Spotify to compare my results and pre
 
 # Analysis of 2010-2019 dataset:
 
+<img width="366" alt="Screenshot 2023-01-30 at 17 15 46" src="https://user-images.githubusercontent.com/122220434/215547364-493e09ed-785a-4393-985f-aeee5dfb4b96.png">
+  
   
 One of my first observations from the data was the mean duration of all the songs in the dataset being 224.68 seconds. This corresponds to 3 minutes and 44 seconds. 
 Next, the mean durations of songs is steadily declining from year to year, with a large spike from 2018 to 2019 as can be seen on the graph. This coincides with TikTok becoming very popular from 2019 onwards, which I previously stated as one of the potential causes of the general decline.
 
 
+<img width="474" alt="Screenshot 2023-01-30 at 17 15 59" src="https://user-images.githubusercontent.com/122220434/215547395-a67ccb03-888c-47a3-ba03-9d228ee5b0b1.png">
 
 
   
 
 Above are the 10 lowest duration songs in the dataset. 8 out of 10 are from 2015 onwards. 2015 was chosen as the cut-off point for comparison as it splits the dataset in half.
 
+<img width="488" alt="Screenshot 2023-01-30 at 17 16 10" src="https://user-images.githubusercontent.com/122220434/215547440-9527b239-1e7e-426b-b7ee-72b55d6a88d0.png">
 
  
 
@@ -31,11 +35,13 @@ Now we can see the 10 highest duration songs in the dataset. 8 out of 10 are bef
 With the longest songs generally being after 2015, and the shortest songs being before, it’s a fairly reasonable assumption that song length of top songs is decreasing.
 
 
- 
+ <img width="412" alt="Screenshot 2023-01-30 at 17 16 19" src="https://user-images.githubusercontent.com/122220434/215547475-38cedc92-9252-4488-8b53-0f9b09f87249.png">
+
 
 This boxplot of the data is a good indicator of the range of the duration of the songs for each year. The length of the boxplot represents the range of the interquartile range (middle 50% of the data). The larger the box, the greater the range. It can be seen here that as the years increase, the boxes are going lower, representing a general decrease in song length. The diamond shapes show outliers in each year
 
- 
+ <img width="450" alt="Screenshot 2023-01-30 at 17 16 30" src="https://user-images.githubusercontent.com/122220434/215547505-befd6fbd-4411-4c26-bd56-480d6034789c.png">
+
 
 This is a swarmplot. It’s very similar to a boxplot but may be easier on the eye and clearer to some viewers. It shows the data points of each year and indicates the same thing as a boxplot.
 
@@ -47,9 +53,11 @@ This is a swarmplot. It’s very similar to a boxplot but may be easier on the e
 
 I used 3 different prediction types:
 •	Simple Linear Regression (OLS) of all the data (formula below)
- 
+ <img width="457" alt="Screenshot 2023-01-30 at 17 16 41" src="https://user-images.githubusercontent.com/122220434/215547551-0c866db7-86dd-4b8b-99fd-7d8c51e5942f.png">
+
 •	Simple Linear Regression (OLS) of the mean values for each year (formula below)
- 
+ <img width="459" alt="Screenshot 2023-01-30 at 17 16 47" src="https://user-images.githubusercontent.com/122220434/215547580-e40e364b-ea64-4753-9cb6-d7c7eb3ab6b2.png">
+
 •	Machine Learning model (used a test size of 30% of the data)
 
 
@@ -68,7 +76,8 @@ Using the 2021 dataset, it can be found that the actual mean duration was 197.48
 
 
 
- 
+ <img width="430" alt="Screenshot 2023-01-30 at 17 17 00" src="https://user-images.githubusercontent.com/122220434/215547617-cc9f2508-123a-4733-89a2-ee04693e30a4.png">
+
 
 For example, it can be seen here that the lowest duration song in 2021 was 132.78 seconds. This would have been the lowest duration song in our entire dataset from 2010-2019.
 
