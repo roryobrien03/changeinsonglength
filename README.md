@@ -1,4 +1,4 @@
-Introduction:
+# Introduction:
 
 As an avid music listener, I have noticed it becoming somewhat a trend for the length of newly released music to be shorter than previous. 
 
@@ -11,7 +11,7 @@ I wanted to investigate if this was true or not, so I gathered data from Kaggle 
 
 I also used a 2021 dataset of top songs on Spotify to compare my results and predictions to (https://www.kaggle.com/datasets/equinxx/spotify-top-50-songs-in-2021) .
 
-Analysis of 2010-2019 dataset:
+# Analysis of 2010-2019 dataset:
 
   
 One of my first observations from the data was the mean duration of all the songs in the dataset being 224.68 seconds. This corresponds to 3 minutes and 44 seconds. 
@@ -43,7 +43,7 @@ This is a swarmplot. It’s very similar to a boxplot but may be easier on the e
 
 
 
-Predictions:
+# Predictions:
 
 I used 3 different prediction types:
 •	Simple Linear Regression (OLS) of all the data (formula below)
