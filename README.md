@@ -1,4 +1,6 @@
-# Introduction:
+# Change in Song Length
+
+## Introduction:
 
 As an avid music listener, I have noticed it becoming somewhat a trend for the length of newly released music to be shorter than previous. 
 
@@ -14,7 +16,7 @@ I wanted to investigate if this was true or not, so I gathered data from Kaggle 
 
 I also used a 2021 dataset of top songs on Spotify to compare my results and predictions to (https://www.kaggle.com/datasets/equinxx/spotify-top-50-songs-in-2021) .
 
-# Analysis of 2010-2019 dataset:
+## Analysis of 2010-2019 dataset:
 
 <img width="366" alt="Screenshot 2023-01-30 at 17 15 46" src="https://user-images.githubusercontent.com/122220434/215547364-493e09ed-785a-4393-985f-aeee5dfb4b96.png">
   
@@ -55,7 +57,7 @@ This is a kdeplot showing the probability density of the data. It is a more smoo
 
 
 
-# Predictions:
+## Predictions:
 
 I used 3 different prediction types:
 
@@ -93,7 +95,7 @@ For example, it can be seen here that the lowest duration song in 2021 was 132.7
 
 
 
-Conclusion:
+## Conclusion:
 
 Overall, my preconceptions were confirmed by analysis of the data. However, I may have been biased going into the process as a result of this, so I need to be wary of that also. 
 
